@@ -1,31 +1,26 @@
-# 📁 Real-World Java Data Structures
+# 📁 DSA Showcase Hub – Real-World Java Mini Projects
 
-A collection of **14 real-world mini projects** using **classic data structures and algorithms in Java**.  
-Each project solves a practical problem using core Java and console I/O—no complex UI, just clean, understandable logic.
+A collection of **real-world mini projects** using **classic data structures and algorithms in Java**.  
+Each project solves a practical problem using core Java and console I/O—no frameworks, no GUI—just clean, clear logic.
 
 ---
 
-## 🧰 Tech Used
+## 🧰 Tech Stack
 
 - Java (Core + Collections)
-- Console input/output
-- No frameworks, no GUI — purely focused on **logic and learning**
+- Console-based input/output
+- Focused on logic and clarity (no visual tools)
 
 ---
 
 ## 🧠 Why This Project?
 
-Most tutorials teach data structures using academic problems.  
-This repo focuses on how **data structures solve real-life problems**.
-
-Each folder contains:
-- ✅ Java source code
-- ✅ Sample inputs/outputs
-- ✅ Problem explanation
+Most DSA tutorials use academic problems. This project flips that.  
+Each folder shows how **data structures solve real-world problems**—with working code, sample output, and explanation.
 
 ---
 
-## 📚 Mini Projects Included
+## 📚 Included Mini Projects
 
 ### 1️⃣ Array – Inventory Management System
 - **Use:** Track stock levels of store items  
@@ -44,130 +39,130 @@ Each folder contains:
 ---
 
 ### 3️⃣ Stack – Tower of Hanoi Solver
-- **Use:** Solve puzzle using stack logic or recursion  
+- **Use:** Solve puzzle using recursion  
 - **Input:** Number of disks  
 - **Output:** Step-by-step moves  
 - **Folder:** `stack-tower-of-hanoi`
 
 ---
 
-### 4️⃣ Priority Queue – Emergency Room
-- **Use:** Treat patients based on priority  
-- **Input:** Patient name, urgency (1 = highest)  
+### 4️⃣ Priority Queue – ER Patient Management
+- **Use:** Treat patients based on urgency  
+- **Input:** Patient name, priority  
 - **Output:** Next patient to treat  
 - **Folder:** `priorityqueue-er-management`
 
 ---
 
-### 5️⃣ HashMap – User Login System
-- **Use:** Store & validate login info  
-- **Input:** Username and password  
-- **Output:** Success or failure  
-- **Folder:** `hashmap-login-system`
+### 5️⃣ Priority Queue – Hospital Emergency Queue
+- **Use:** Manage emergency cases  
+- **Input:** Name, severity  
+- **Output:** Next in line  
+- **Folder:** `priorityqueue-hospital-emergency`
 
 ---
 
-### 6️⃣ Linked List – Playlist Manager
+### 6️⃣ HashMap – User Login System
+- **Use:** Store and validate credentials  
+- **Input:** Username/password  
+- **Output:** Login success or failure  
+- **Folder:** `hashMap – user login system`
+
+---
+
+### 7️⃣ Linked List – Playlist Manager
 - **Use:** Manage songs in a playlist  
-- **Input:** Add/remove/move songs  
-- **Output:** Updated list of songs  
+- **Input:** Add, remove, view songs  
+- **Output:** Current song list  
 - **Folder:** `linkedlist-playlist`
 
 ---
 
-### 7️⃣ Binary Search Tree – Contact Search
-- **Use:** Store and search contacts alphabetically  
+### 8️⃣ Binary Search Tree – Contact Search
+- **Use:** Alphabetically store/search contacts  
 - **Input:** Add/search/delete contact  
 - **Output:** Contact found or not  
-- **Folder:** `bst-contact-search`
+- **Folder:** `contact-bst`
 
 ---
 
-### 8️⃣ Graph – City Route Finder
-- **Use:** Find paths between cities  
-- **Input:** Start and destination  
-- **Output:** List of available routes  
-- **Folder:** `graph-city-route`
+### 9️⃣ Graph – Route Finder
+- **Use:** Show connections between cities  
+- **Input:** Start + destination  
+- **Output:** Available routes  
+- **Folder:** `graphRouteFinder`
 
 ---
 
-### 9️⃣ Set – Voter ID Tracker
+### 🔟 Set – Voter ID Tracker
 - **Use:** Avoid duplicate votes  
 - **Input:** Voter ID  
-- **Output:** "Accepted" or "Already Voted"  
+- **Output:** Accepted or already voted  
 - **Folder:** `set-voter-id-tracker`
 
 ---
 
-### 🔟 Deque – Sliding Window Maximum
-- **Use:** Get max value in moving window  
-- **Input:** Temperature list + window size  
-- **Output:** Max for each window  
+### 1️⃣1️⃣ Deque – Sliding Window Max
+- **Use:** Max temperature over time window  
+- **Input:** Temp list + window size  
+- **Output:** Max per window  
 - **Folder:** `deque-sliding-window`
 
 ---
 
-### 1️⃣1️⃣ Trie – Autocomplete System
-- **Use:** Suggest words from prefix  
-- **Input:** Word list + typed prefix  
-- **Output:** Matching words  
+### 1️⃣2️⃣ Trie – Autocomplete System
+- **Use:** Suggest words by prefix  
+- **Input:** Word list + user prefix  
+- **Output:** Matching suggestions  
 - **Folder:** `trie-autocomplete-system`
 
 ---
 
-### 1️⃣2️⃣ Heap – Top K Frequent Words
-- **Use:** Show most used words in a text  
-- **Input:** Paragraph + K  
-- **Output:** Top K frequent words  
-- **Folder:** `heap-top-k-words`
+### 1️⃣3️⃣ TreeMap – Student Scoreboard
+- **Use:** Sort students by score/name  
+- **Input:** Name and score  
+- **Output:** Sorted score list  
+- **Folder:** `student-scoreboard-treemap`
 
 ---
 
-### 1️⃣3️⃣ Disjoint Set – Friend Circles
-- **Use:** Detect connected groups of friends  
-- **Input:** Friend pairs  
-- **Output:** Number of separate friend groups  
-- **Folder:** `disjointset-friend-circles`
+### 1️⃣4️⃣ TreeSet – Sorted Student List
+- **Use:** Avoid duplicates and keep names sorted  
+- **Input:** Student names  
+- **Output:** Sorted list  
+- **Folder:** `TreeSetSortedStudentList`
 
 ---
 
-### 1️⃣4️⃣ Matrix – Minesweeper Game Engine
-- **Use:** Simulate Minesweeper logic  
-- **Input:** Board size + mine positions  
-- **Output:** Grid with cell results  
-- **Folder:** `matrix-minesweeper-engine`
+### 1️⃣5️⃣ LinkedHashMap – LRU Cache Simulator
+- **Use:** Simulate Least Recently Used cache  
+- **Input:** Page accesses  
+- **Output:** Cache state and hits/misses  
+- **Folder:** `linkedhashmap-lru-cache-simulator`
 
 ---
 
-## 👨‍💻 How to Use
+## 🧑‍💻 How to Run
 
-1. Clone or download this repository  
+1. Clone or download this repo  
 2. Open any folder  
-3. Run the Java file in your IDE or terminal  
-4. Follow on-screen prompts in the console  
+3. Run the `.java` file in terminal or IDE  
+4. Follow the console prompts  
 
 ---
 
-## 💡 Who is This For?
+## 💡 Who Is This For?
 
-- Java beginners  
-- Students preparing for DSA interviews  
-- Anyone who wants to learn how **DSA applies to real problems**
-
----
-
-## 🤝 Contributions
-
-Have a cool real-world DSA idea?  
-PRs and suggestions are welcome!
+- Java learners and students  
+- DSA interview prep  
+- Anyone who wants **practical understanding** of core structures
 
 ---
 
-## 📌 Notes
+## 🤝 Contribute
 
-- This is not a visualizer or UI tool  
-- 100% console-based Java logic  
-- Focused on learning through real-world examples
+Have an idea for another real-world problem using a data structure?  
+PRs welcome!
 
 ---
 
